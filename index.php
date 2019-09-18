@@ -11,10 +11,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	
 	<body>
         <?php
 		 include_once 'header.php';
-		 11
         ?>
 		<!-- Banner -->
 			<section id="banner">
@@ -28,27 +28,27 @@
 					<div class="flex flex-3">
 						<article>
 							<header>
-								<h3>Magna tempus sed amet<br /> aliquam veroeros</h3>
+								<h3>Predmeti pri katerih sodelujem<br /> </h3>
 							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+							<p>Klikni na gumb "več", da izveš pri katerih predmetih sodeluješ.</p>
 							<footer>
-								<a href="#" class="button special">More</a>
+								<a href="generic.php" class="button special">More</a>
 							</footer>
 						</article>
 						<article>
 							<header>
-								<h3>Interdum lorem pulvinar<br /> adipiscing vitae</h3>
+								<h3>Spremeni nastavitve profila<br />Zadnja sprememba:</h3>
 							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+							<p>Klikni "Več" ter stran te bo popeljala do urejevalnika profila, tu lahko urediš svoje geslo, sliko, ...  </p>
 							<footer>
-								<a href="#" class="button special">More</a>
+								<a href="elements.php" class="button special">More</a>
 							</footer>
 						</article>
 						<article>
 							<header>
-								<h3>Libero purus magna sapien<br /> sed ullamcorper</h3>
+								<h3>Piši administratorju za dostop do predmetov<br /></h3>
 							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+							<p>Klikni "Več", in stran te bo popeljala do obrazcov, na katerih lahko sporočite administratorju, kam vas naj doda</p>
 							<footer>
 								<a href="#" class="button special">More</a>
 							</footer>
@@ -58,11 +58,13 @@
 			</section>
 
 		<!-- Two -->
+
+		<!-- naredi, da se prikažejo samo učitelji, ki te imajo v nekem predmetu   -->
 			<section id="two" class="wrapper style1 special">
 				<div class="inner">
 					<header>
-						<h2>Ipsum Feugiat</h2>
-						<p>Semper suscipit posuere apede</p>
+						<h2>Profesorji</h2>
+						<p>Seznam vseh profesorjev, katere imaš v modulu</p>
 					</header>
 					<div class="flex flex-4">
 						<div class="box person">
