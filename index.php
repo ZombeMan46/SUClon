@@ -11,14 +11,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	
+
 	<body>
         <?php
 		 include_once 'header.php';
         ?>
 		<!-- Banner -->
 			<section id="banner">
-				<h1>Dobrodošji v leto: </h1>
+				<h1>Dobrodošji v šolsko leto: 2019/2020 </h1>
 				<p>Učilnica za dijake od dijaka</p>
 			</section>
 
@@ -41,7 +41,7 @@
 							</header>
 							<p>Klikni "Več" ter stran te bo popeljala do urejevalnika profila, tu lahko urediš svoje geslo, sliko, ...  </p>
 							<footer>
-								<a href="elements.php" class="button special">More</a>
+								<a href="profil_edit.php" class="button special">More</a>
 							</footer>
 						</article>
 						<article>
