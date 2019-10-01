@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<title>Login </title>
+		<title>Učitelj login </title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -12,7 +12,7 @@
 <?php include_once 'header.php'; ?>
 
   <div class="header">
-  	<h2>Login za dijake</h2>
+  	<h2>Login za profesorje</h2>
   </div>
 	 
   <form method="post" action="login_check.php">
