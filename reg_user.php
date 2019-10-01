@@ -2,6 +2,7 @@
 
 <?php
 include_once 'db.php';
+
 function insertMemberRecord($username, $displayName, $password, $email)
 {
     $passwordHash = md5($password);
