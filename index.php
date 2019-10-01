@@ -69,6 +69,7 @@
 					<div class="flex flex-4">
 						<div class="box person">
 							<div class="image round">
+								<!-- dodaj sliko od učitelja v bazi je to - ucitelji/slike -->
 								<img src="images/pic03.jpg" alt="Person 1" />
 							</div>
 							<h3>Magna</h3>

@@ -16,6 +16,38 @@
 	<?php
 	include_once 'header.php';
 	?>
+	<section id="banner">
+				<h1>Moji predmeti:</h1>
+				<p>Število aktivnih predmetov: <?php ?></p>
+</section>
+<section id="one" class="wrapper">
+	<div class="inner">
+		<!--- To kodo dodaj v svoj php, ter jo potem kliči -->
+			<article>
+							<header>
+								<h3>Predmet 1<?php //tukaj pride ime predmeta ?><br /> </h3>
+							</header>
+							<p><?php //Tukaj pride opis predmeta/modula ?></p>
+							<footer>
+								<a href="<?php mojipredmeti.php ?>" class="button special">Več</a>
+							</footer>
+						</article>
+						<br>
+						<br>
+						<article>
+							<header>
+								<h3>Predmet 2 <?php //tukaj pride Ime predmeta ?> <br /> </h3>
+							</header>
+							<p>Klikni na gumb "več", da izveš pri katerih predmetih sodeluješ.</p>
+							<footer>
+								<a href="<?php mojipredmeti.php ?>" class="button special">Več</a>
+							</footer>
+						</article>
+				</div>
+</section>
+
+
+
 		<!-- Three 
 			<section id="three" class="wrapper">
 				<div class="inner">
