@@ -32,7 +32,7 @@
 							</header>
 							<p>Klikni na gumb "več", da izveš pri katerih predmetih sodeluješ.</p>
 							<footer>
-								<a href="generic.php" class="button special">More</a>
+								<a href="mojipredmeti.php" class="button special">More</a>
 							</footer>
 						</article>
 						<article>
@@ -41,7 +41,7 @@
 							</header>
 							<p>Klikni "Več" ter stran te bo popeljala do urejevalnika profila, tu lahko urediš svoje geslo, sliko, ...  </p>
 							<footer>
-								<a href="profil_edit.php" class="button special">More</a>
+								<a href="mojprofil.php" class="button special">More</a>
 							</footer>
 						</article>
 						<article>
@@ -100,6 +100,7 @@
 			</section>
 
 		<!-- Three -->
+		<!--
 			<section id="three" class="wrapper special">
 				<div class="inner">
 					<header class="align-center">
@@ -134,7 +135,7 @@
 					</div>
 				</div>
 			</section>
-
+		--> 
 
 	<?php	
    include_once 'footer.php'

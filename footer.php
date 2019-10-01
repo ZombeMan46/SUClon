@@ -3,7 +3,7 @@
 				<div class="inner">
 					<div class="flex">
 						<div class="copyright">
-							&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+							&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: copyright.
 						</div>
 						<ul class="icons">
 							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -15,3 +15,8 @@
 					</div>
 				</div>
 			</footer>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
