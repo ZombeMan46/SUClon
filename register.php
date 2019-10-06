@@ -1,4 +1,5 @@
-<?php   include_once 'db.php'; ?>
+<?php   include_once 'db.php';
+ ?>
 <html>
 <head>
 		<title>Register </title>
@@ -8,7 +9,7 @@
 	</head>
 <body class="subpage">
     <?php
-    include_once 'header.php';
+	include_once 'header.php';
     ?>
      <div class="header">
   	<h2>Register</h2>
@@ -37,18 +38,18 @@
   	  <input type="password" name="password_2">
   	</div>
   	<div class="input-group">
-  	  <button type="submit" class="btn" name="reg_user">Register</button>
+  	  <button type="submit" class="btn" name="reg_users">Register</button>
   	</div>
   	<p>
   		Already a member? <a href="login.php">Sign in</a>
   	</p>
   </form>
 </body>
-
+</html>
 
 <?php
 include_once 'footer.php';
 ?>
 
 
-  </html>
+ 

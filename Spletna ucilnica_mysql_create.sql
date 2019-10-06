@@ -1,8 +1,8 @@
 CREATE TABLE `Ucitelji` (
 	`id` INT NOT NULL AUTO_INCREMENT,
-	`Ime` varchar(255) NOT NULL AUTO_INCREMENT,
-	`Priimek` varchar(255) NOT NULL AUTO_INCREMENT,
-	`Email` varchar(255) NOT NULL AUTO_INCREMENT,
+	`Ime` varchar(255) NOT NULL ,
+	`Priimek` varchar(255) NOT NULL ,
+	`Email` varchar(255) NOT NULL ,
 	`id_slika` INT NOT NULL,
 	`id_drzava` INT NOT NULL,
 	`id_kraj` INT NOT NULL,
@@ -11,7 +11,7 @@ CREATE TABLE `Ucitelji` (
 
 CREATE TABLE `Moduli` (
 	`id` INT NOT NULL AUTO_INCREMENT,
-	`Ime` varchar(255) NOT NULL AUTO_INCREMENT,
+	`Ime` varchar(255) NOT NULL ,
 	`id_slika` INT NOT NULL,
 	`id_naloga` INT NOT NULL,
 	PRIMARY KEY (`id`)
@@ -19,9 +19,9 @@ CREATE TABLE `Moduli` (
 
 CREATE TABLE `Naloge` (
 	`Id` INT NOT NULL AUTO_INCREMENT,
-	`Ocena` INT NOT NULL AUTO_INCREMENT,
-	`Opis` TEXT NOT NULL AUTO_INCREMENT,
-	`Rok_oddaje` DATETIME NOT NULL AUTO_INCREMENT,
+	`Ocena` INT NOT NULL ,
+	`Opis` TEXT NOT NULL ,
+	`Rok_oddaje` DATETIME NOT NULL ,
 	`id_datoteka` INT NOT NULL,
 	`id_slika` INT NOT NULL,
 	PRIMARY KEY (`Id`)
@@ -29,37 +29,37 @@ CREATE TABLE `Naloge` (
 
 CREATE TABLE `Datoteke` (
 	`id` INT NOT NULL AUTO_INCREMENT,
-	`Url` blob NOT NULL AUTO_INCREMENT,
-	`Tip` varchar(255) NOT NULL AUTO_INCREMENT,
+	`Url` blob NOT NULL ,
+	`Tip` varchar(255) NOT NULL ,
 	PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `Drzave` (
 	`id` INT NOT NULL AUTO_INCREMENT,
-	`Ime` varchar(255) NOT NULL AUTO_INCREMENT,
+	`Ime` varchar(255) NOT NULL ,
 	PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `Uporabniki` (
 	`id` INT NOT NULL AUTO_INCREMENT,
-	`Ime` varchar(255) NOT NULL AUTO_INCREMENT,
-	`Priimek` varchar(255) NOT NULL AUTO_INCREMENT,
-	`id_slika` INT NOT NULL AUTO_INCREMENT,
-	`id_drzava` INT NOT NULL AUTO_INCREMENT,
-	`id_kraji` INT NOT NULL AUTO_INCREMENT,
+	`Ime` varchar(255) NOT NULL ,
+	`Priimek` varchar(255) NOT NULL,
+	`id_slika` INT NOT NULL ,
+	`id_drzava` INT NOT NULL ,
+	`id_kraji` INT NOT NULL ,
 	PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `Kraji` (
 	`id` INT NOT NULL AUTO_INCREMENT,
-	`Ime` varchar(255) NOT NULL AUTO_INCREMENT,
-	`Postna_st` INT NOT NULL AUTO_INCREMENT,
+	`Ime` varchar(255) NOT NULL ,
+	`Postna_st` INT NOT NULL,
 	PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `Slike` (
 	`id` INT NOT NULL AUTO_INCREMENT,
-	`Url` blob NOT NULL AUTO_INCREMENT,
+	`Url` blob NOT NULL ,
 	PRIMARY KEY (`id`)
 );
 
