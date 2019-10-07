@@ -15,10 +15,11 @@
 	<body>
         <?php
 		 include_once 'header.php';
+		 include_once 'db.php';
         ?>
 		<!-- Banner -->
 			<section id="banner">
-				<h1>Dobrodošji v šolsko leto: 2019/2020 </h1>
+				<h1>Dobrodošlji v šolsko leto: 2019/2020 </h1>
 				<p>Učilnica za dijake od dijaka</p>
 			</section>
 
@@ -29,6 +30,8 @@
 						<article>
 							<header>
 								<h3>Predmeti pri katerih sodelujem<br /> </h3>
+								<h3> <?php echo $_SESSION['username'] ?>  </h3>
+								<h3> <?php echo $_SESSION['userData']['email'] ?>  </h3>
 							</header>
 							<p>Klikni na gumb "več", da izveš pri katerih predmetih sodeluješ.</p>
 							<footer>

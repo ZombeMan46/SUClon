@@ -1,4 +1,11 @@
 <?php include('db.php') ?>
+<?php require_once('config.php') ?>
+<?php
+$redirectTO = "http://localhost/suclon/callback.php";
+$data = ['email'];
+$fullurl = $handler ->getLoginUrl($redirectTO, $data);
+?>
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,8 +25,8 @@
   <form method="post" action="login_check.php">
   	<?php// include('errors.php'); ?>
   	<div class="input-group">
-  		<label>Username</label>
-  		<input type="text" name="username" >
+  		<label>Email</label>
+  		<input type="text" name="email" >
   	</div>
   	<div class="input-group">
   		<label>Password</label>
@@ -27,6 +34,9 @@
   	</div>
   	<div class="input-group">
   		<button type="submit" class="btn" name="login_user">Login</button>
+  	</div>
+	  <div class="input-group"> 
+  		<input type="button" onclick="window.location = '<?php echo $fullurl ?>'" value="Login with fb" class="btn btn-primary">
   	</div>
   	<p>
   		Not yet a member? <a href="register.php">Sign up</a>
