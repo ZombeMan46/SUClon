@@ -5,7 +5,6 @@ $redirectTO = "http://localhost/suclon/callback.php";
 $data = ['email'];
 $fullurl = $handler ->getLoginUrl($redirectTO, $data);
 ?>
-?>
 <!DOCTYPE html>
 <html>
 <head>

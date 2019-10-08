@@ -14,28 +14,32 @@
 	<body class="subpage">
 
 
+	<?php
+	include_once 'db.php';
+	include_once 'header.php';
+	?>
+
+
 	<!-- Dodaj da lahko izbira samo eno na enkrat. v primeru zamenjave gesla, 
 	lahko to naredi samo, če ve trenutno geslo. Spremenitev maila mogoča samo z izpolitvijo
 	obrazca za pošiljanje k adminu -->
 	
 	<form method="post" action="user_cng.php">
 		<!-- trenutni pass -->
-
 	<div class="input-group">
   	  <label>Staro geslo</label>
   	  <input type="password" name="password_1">
 	  </div>
-
 	  <br>
 	  <br>
 	  <!-- novi pass ter confirm -->
   	<div class="input-group">
   	  <label>Novo geslo</label>
-  	  <input type="password" name="password_1">
+  	  <input type="password" name="password_2">
   	</div>
   	<div class="input-group">
   	  <label>Potrdite novo geslo</label>
-  	  <input type="password" name="password_2">
+  	  <input type="password" name="password_3">
 	  </div>
 	  
 	  <div class="input-group">
@@ -43,23 +47,6 @@
   	</div>
 	</form>
 
-
-
-
-	<?php
-	include_once 'db.php';
-	include_once 'header.php';
-	?>
-
-
-
-
-
-
-
-
-
-	
 	<?php
 	include_once 'footer.php';
 	?>

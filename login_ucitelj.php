@@ -16,11 +16,11 @@
 	  <h3> <?php $_SESSION['username'] ?>  </h3>
   </div>
 	 
-  <form method="post" action="login_check.php">
+  <form method="post" action="login_CheckU.php">
   	<?php// include('errors.php'); ?>
   	<div class="input-group">
-  		<label>Username</label>
-  		<input type="text" name="username" >
+  		<label>Email</label>
+  		<input type="text" name="email" >
   	</div>
   	<div class="input-group">
   		<label>Password</label>

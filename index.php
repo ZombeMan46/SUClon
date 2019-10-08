@@ -20,7 +20,22 @@
 		<!-- Banner -->
 			<section id="banner">
 				<h1>Dobrodošlji v šolsko leto: 2019/2020 </h1>
-				<p>Učilnica za dijake od dijaka</p>
+				<p>Račun: 
+				<?php if(isset($_SESSION['userData']['email']))
+				{
+				echo $_SESSION['userData']['email'];
+				}
+				elseif(isset($_SESSION['username']))
+					{
+						echo $_SESSION['username'];
+				}
+				else
+				{
+					echo "Niste prijavljeni";
+				}
+				?>
+				
+				</p>
 			</section>
 
 		<!-- One -->
@@ -30,8 +45,6 @@
 						<article>
 							<header>
 								<h3>Predmeti pri katerih sodelujem<br /> </h3>
-								<h3> <?php echo $_SESSION['username'] ?>  </h3>
-								<h3> <?php echo $_SESSION['userData']['email'] ?>  </h3>
 							</header>
 							<p>Klikni na gumb "več", da izveš pri katerih predmetih sodeluješ.</p>
 							<footer>
