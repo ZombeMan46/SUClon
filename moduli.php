@@ -17,7 +17,7 @@
   </div>
 
 <?php
-$query = ("SELECT Ime,opis FROM moduli ORDER BY id DESC");
+$query = ("SELECT Ime,opis,id FROM moduli ORDER BY id DESC");
 $result = mysqli_query($db,$query); 
 ?>
 <?php

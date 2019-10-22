@@ -6,3 +6,9 @@ mysqli_query($db, "SET NAMES 'utf8'");
 $salt = 'abc123def235';
  
 ?>
+<?php 
+
+
+
+
+?>
