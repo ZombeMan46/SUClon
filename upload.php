@@ -8,8 +8,8 @@ $opis = $_POST['opis'];
 echo $opis;
 
 
-$query = "INSERT INTO naloge (ime,Opis,id_modul) 
-VALUES ('$ime','$opis','$obj['id']')";
+$query = "INSERT INTO naloge (ime,Opis) 
+VALUES ('$ime','$opis')"; //  + id_modul ,  '$obj['id']'
 if (mysqli_query($db, $query)) {
     echo "New record created successfully";
     sleep(5);
