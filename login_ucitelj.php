@@ -13,7 +13,7 @@
 
   <div class="header">
   	<h2>Login za profesorje</h2>
-	  <h3> <?php $_SESSION['username'] ?>  </h3>
+	  <h3>  </h3>
   </div>
 	 
   <form method="post" action="login_CheckU.php">
