@@ -18,16 +18,17 @@
 	 
   <form method="post" action="login_CheckU.php">
   	<?php// include('errors.php'); ?>
-  	<div class="input-group">
+  	<div class="6u 12u$(xsmall)" style="display: block; margin: 0 auto;">
   		<label>Email</label>
   		<input type="text" name="email" >
   	</div>
-  	<div class="input-group">
+  	<div class="6u 12u$(xsmall)" style="display: block; margin: 0 auto;">
   		<label>Password</label>
   		<input type="password" name="password">
   	</div>
+	  <br>
   	<div class="input-group">
-  		<button type="submit" class="btn" name="login_user">Login</button>
+  		<button type="submit" class="button special" name="login_user" style="display: block; margin: 0 auto;">Login</button>
   	</div>
   	<p>
   		Not yet a member? <a href="register.php">Sign up</a>

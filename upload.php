@@ -2,14 +2,18 @@
 include_once "db.php";
 ?>
 <?php
+$query = ("SELECT Ime,opis,id FROM moduli ORDER BY id DESC");
+$result = mysqli_query($db,$query); 
+$obj=mysqli_fetch_array($result);
 
 $ime = $_POST['ImeNaloge'];
 $opis = $_POST['opis'];
+$modl = $obj['id'];
 echo $opis;
 
 
-$query = "INSERT INTO naloge (ime,Opis) 
-VALUES ('$ime','$opis')"; //  + id_modul ,  '$obj['id']'
+$query = "INSERT INTO naloge (ime,Opis,id_modul) 
+VALUES ('$ime','$opis','$modl')"; //  + id_modul ,  '$obj['id']'
 if (mysqli_query($db, $query)) {
     echo "New record created successfully";
     sleep(5);

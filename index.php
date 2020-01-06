@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 
-	<body>
+	<body >
         <?php
 		 include_once 'header.php';
 		 include_once 'db.php';
@@ -37,7 +37,10 @@
 				
 				</p>
 			</section>
-
+			<a class="weatherwidget-io" href="https://forecast7.com/en/46d3615d11/velenje/" data-label_1="VELENJE" data-label_2="WEATHER" data-theme="original" >VELENJE WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
 		<!-- One -->
 			<section id="one" class="wrapper">
 				<div class="inner">

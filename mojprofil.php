@@ -26,24 +26,24 @@
 	
 	<form method="post" action="user_cng.php">
 		<!-- trenutni pass -->
-	<div class="input-group">
+	<div class="6u 12u$(xsmall)" style="display: block; margin: 0 auto;">
   	  <label>Staro geslo</label>
-  	  <input type="password" name="password_1">
+  	  <input type="password" name="password_1" >
 	  </div>
 	  <br>
 	  <br>
 	  <!-- novi pass ter confirm -->
-  	<div class="input-group">
+  	<div class="6u 12u$(xsmall)" style="display: block; margin: 0 auto;">
   	  <label>Novo geslo</label>
   	  <input type="password" name="password_2">
   	</div>
-  	<div class="input-group">
+  	<div class="6u 12u$(xsmall)" style="display: block; margin: 0 auto;">
   	  <label>Potrdite novo geslo</label>
-  	  <input type="password" name="password_3">
+  	  <input type="password" name="password_3" >
 	  </div>
 	  
-	  <div class="input-group">
-  	  <button type="submit" class="btn" name="usr_cng">Uredi</button>
+	  <div class="6u 12u$(xsmall)" style="display: block; margin: 0 auto;">
+  	  <button type="submit" class="button special" name="usr_cng" style="display: block; margin: 0 auto;">Uredi</button>
   	</div>
 	</form>
 
